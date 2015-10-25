@@ -1,0 +1,37 @@
+# KALKULATOR
+
+public class dwishintams extends javax.swing.JFrame { double nilai1,nilai2; public dwishintams() { initComponents(); }
+
+    void penjumlahan(){
+
+        int Nilai1=Integer.parseInt(jTextField1.getText());
+        int Nilai2=Integer.parseInt(jTextField2.getText());
+
+        int penjumlahan = Nilai1+Nilai2;
+
+         jLabel3.setText("hasil = "+penjumlahan);
+    }
+    void pengurangan(){
+         int Nilai1=Integer.parseInt(jTextField1.getText());
+        int Nilai2=Integer.parseInt(jTextField2.getText());
+
+        int pengurangan = Nilai1-Nilai2;
+
+        jLabel3.setText("hasil = "+pengurangan);
+    }
+    void perkalian(){
+        int Nilai1=Integer.parseInt(jTextField1.getText());
+        int Nilai2=Integer.parseInt(jTextField2.getText());
+
+        int perkalian = Nilai1*Nilai2;
+
+        jLabel3.setText("hasil ="+perkalian);
+    }   
+     void pembagian(){
+         double Nilai1=Double.parseDouble(jTextField1.getText());
+         double  Nilai2=Double.parseDouble(jTextField2.getText());
+
+         double pembagian = Nilai1/Nilai2;
+
+        jLabel3.setText("hasil ="+pembagian);
+         }
